@@ -81,3 +81,32 @@ body {
   0% { transform: translateY(-100px) rotate(0deg); opacity: 1; }
   100% { transform: translateY(600px) rotate(360deg); opacity: 0; }
 }
+@media (max-width: 600px) {
+  #greeting-text {
+    font-size: 1.8em;
+  }
+
+  #sub-text, #extra-text {
+    font-size: 1em;
+  }
+
+  .emoji-button {
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+
+  .extra-section {
+    margin: 20px;
+    padding: 40px 10px;
+  }
+
+  #language-switcher {
+    top: 5px;
+    right: 5px;
+    padding: 3px 8px;
+  }
+
+  #language-switcher button {
+    font-size: 14px;
+  }
+}
